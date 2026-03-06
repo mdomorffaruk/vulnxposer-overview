@@ -1,27 +1,53 @@
 # VulnXposer
 
-VulnXposer is a web-based security assessment platform designed to automate reconnaissance and vulnerability discovery workflows.
+VulnXposer is a web-based vulnerability scanning platform designed to identify security weaknesses in websites.
+
+The system performs multiple reconnaissance and vulnerability checks and generates security reports for analysis.
 
 ## Features
 
-- Subdomain discovery
-- DNS record analysis
-- Port scanning (Nmap)
-- Vulnerability scanning (OWASP ZAP)
-- HTTP header security checks
-- SSL/TLS analysis
-- Automated reporting
+- Port scanning
+- DNS analysis
+- SSL/TLS configuration analysis
+- HTTP security header inspection
+- Subdomain enumeration
+- Vulnerability detection via OWASP ZAP
+- Real-time scan updates using Socket.io
 
 ## Architecture
 
-Frontend: React / Web dashboard  
-Backend: Node.js security orchestration  
-Scanning Tools: Nmap, ZAP, DNS utilities
+Frontend:
+React.js dashboard interface
 
-## Purpose
+Backend:
+Node.js with Express
 
-The platform was developed to streamline vulnerability assessment workflows by combining reconnaissance, scanning, and reporting in a single interface.
+Scanning Engine:
+Bash scripts, Python modules, OWASP ZAP integration
 
-## Note
+## Screenshots
 
-The full source code is private due to security considerations.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Vulnerability Report
+![Report](screenshots/vulnerability-report.png)
+
+### Exported Report
+![Export](screenshots/report-page.png)
+
+## Technologies
+
+- React.js
+- Node.js
+- MySQL
+- Bash scripting
+- Python
+- OWASP ZAP
+- Nmap
+
+## Documentation
+
+Full project report available here:
+
+project-report.pdf
