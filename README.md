@@ -168,4 +168,4 @@ The platform integrates reconnaissance tools and vulnerability scanners to provi
 
 # Project Documentation
 
-Detailed project documentation and system design are available in the project report.
+Detailed project documentation and system design are available in the [project report](project&#32;report.pdf).
